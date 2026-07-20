@@ -30,12 +30,7 @@ except ImportError:
 
 # ─── Configurações ────────────────────────────────────────────────────────────
 
-ARCHIVES = [
-    r"\\192.168.4.16\planilha\Inteligência Comercial\Enzo Thauzer\Python\Automações\Painel Diário\Painel Diario.xlsx",
-    r"\\192.168.4.16\planilha\Inteligência Comercial\Enzo Thauzer\Python\Automações\Margem Bruta - 2R\MB%_2R.xlsb",
-    r"\\192.168.4.16\planilha\Inteligência Comercial\Enzo Thauzer\Python\Automações\Passagens - CD\Passagens - CD.xlsx",
-    r"\\192.168.4.16\planilha\Inteligência Comercial\Enzo Thauzer\Python\Automações\Quinta do Óleo\Promoção Quinta do Óleo - Teste.xlsb"  # CORRIGIDO: era .xslx
-]
+ARCHIVES = ["Insira seu arquivos Excel (.xlsx or .xlsb)"]
 
 # Tempo máximo (segundos) de espera pela atualização antes de emitir aviso
 TIMEOUT = 600
