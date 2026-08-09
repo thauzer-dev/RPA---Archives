@@ -15,7 +15,7 @@ import io
 import time 
 import datetime 
 import traceback 
-from pathlib import Path  # CORRIGIDO: era "import pathlib as Path"
+from pathlib import Path
 
 # Força stdout/stderr em UTF-8 para evitar UnicodeEncodeError no terminal CP1252
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
