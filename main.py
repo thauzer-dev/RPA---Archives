@@ -61,17 +61,17 @@ LOGGER = logging.getLogger(__name__)
 # em repositórios públicos.
 SHARE_ROOT = os.environ.get(
     "RPA_SHARE_ROOT",
-    r"\\SEU-SERVIDOR\planilha\Inteligencia_Comercial",
+    r"\\Caminho",
 )
 
 ARCHIVES = [
-    rf"{SHARE_ROOT}\Automacoes\Painel Diário\Painel Diario.xlsx",
-    rf"{SHARE_ROOT}\Automacoes\Passagens - CD\Passagens - CD.xlsx",
+    rf"{SHARE_ROOT}\Automacoes\Relatório 1",
+    rf"{SHARE_ROOT}\Automacoes\Automacoes\Relatório 2",
     # Extensão corrigida para .xlsb (anteriormente configurada como .xlsx).
-    rf"{SHARE_ROOT}\Automacoes\Quinta do Óleo\Promoção Quinta do Óleo - Teste.xlsb",
-    rf"{SHARE_ROOT}\BI - Pós Vendas\2026_2R_Farol_Indicadores_REGER (Calculadora).xlsx",
-    rf"{SHARE_ROOT}\BI - Pós Vendas\2026_4R_Farol_Indicadores_REGER (Calculadora)_V2.xlsx",
-    rf"{SHARE_ROOT}\BI - Pós Vendas\Pós Vendas - Fato.xlsx",
+    rf"{SHARE_ROOT}\Automacoes\Relatório 3",
+    rf"{SHARE_ROOT}\BI\Fato 1",
+    rf"{SHARE_ROOT}\BI\ Relatório 4",
+    rf"{SHARE_ROOT}\BI\ Relatório 6",
 ]
 
 # Tempo máximo real de espera pelo RefreshAll de cada arquivo.
